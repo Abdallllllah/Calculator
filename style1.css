@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.calc{
+    width:400px;
+    height: 599px;
+    background-color: #000;
+   
+}
+.screen{
+    width: 400px;
+    height: 90px;
+    color: #fff;
+    font-size: 40px;
+    text-align: right;
+    padding: 20px 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.buttons{
+    border: none;
+    cursor: pointer;
+  
+   
+}
+    
+.btnrow{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    width: 400px;
+    height: 100px;
+    margin-bottom: 0.5%;
+    margin-left: 0;
+    
+    
+}
+.btn{
+   
+   flex-basis: 24.5%;
+   font-size: 40px;
+   margin: 0;
+   padding: 0;
+}
+.one{
+    flex-basis: 49.7%;
+}
+.two{
+    flex-basis: 74.8%;
+}
+.or{
+    background:#df974c;
+    color: white;
+}
